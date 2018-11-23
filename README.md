@@ -9,7 +9,7 @@ familiarity.
 Cloning
 ---
 
-This repository contains a submodule (you will need to `git clone
+This repository contains Catch2 as a submodule (you will need to `git clone
 --recursive`).
 
 Environment
