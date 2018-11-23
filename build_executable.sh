@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -o errexit
 
 if [ "$1" == "--clean" ]; then
@@ -10,7 +10,7 @@ else
     # Build objects
     for SOURCE in src/*.cpp; do
         OBJECT=obj/"$(echo $(basename $SOURCE) | cut -d. -f1)".o
-        CMD="g++ -Wall -std=c++98 -I./src -c -o $OBJECT $SOURCE"
+        CMD="g++ -Wall -std=c++17 -I./src -c -o $OBJECT $SOURCE"
         echo $CMD
         $CMD
     done
