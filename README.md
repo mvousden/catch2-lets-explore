@@ -17,7 +17,7 @@ Environment
 
 You will need (I use):
 
- - gcc (8.2.1), but really any C++ compiler will work. You'll need to edit the
-   build scripts appropriately though.
+ - gcc (8.2.1), but feel free to use your C++ compiler du jour. You'll need to
+   edit the build scripts appropriately though.
 
  - Shell (4.4)
